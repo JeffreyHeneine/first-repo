@@ -9,6 +9,7 @@ import AboutUs from "./components/aboutUs.component";
 import Partners from "./components/partners.component";
 import ForgotPass from './components/forgotPass';
 import ConfirmPass from './components/confirmpass.component';
+import WelcomePage from './components/welcomepage.component';
 
 function App() {
   return (<Router>
@@ -33,7 +34,7 @@ function App() {
       <div className="auth-wrapper">
         <div className="auth-inner">
           <Switch>
-            <Route exact path='/' component={Login} />
+            <Route exact path='/' component={WelcomePage} />
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
             <Route path="/about-us" component={AboutUs}/>
