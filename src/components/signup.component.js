@@ -25,7 +25,7 @@ export default class SignUp extends Component {
                     <label>Password</label>
                     <input type="password" className="form-control" placeholder="Enter password" />
                 </div>
-                <div className="form-group">
+                <div className="form-group legalTerm" >
                     <input type="checkbox" className="checkbox-legalterm" />
                     <label>Agree to legal terms and conditions</label>
                 </div>

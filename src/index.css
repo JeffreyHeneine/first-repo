@@ -80,3 +80,6 @@ body, html, .App, #root, .auth-wrapper {
 .header-resetpass {
   font-size: 18px;
 }
+.legalTerm {
+    display: flex;
+}
