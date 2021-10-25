@@ -16,6 +16,14 @@ h1,h2,h3,h4,h5,h6,label,span {
   font-family: 'Fira Sans', sans-serif;
   padding-left: 10px
 }
+body1{
+  background-color: white;
+}
+h8{
+  font-weight : 10;
+  font-family: 'font-family', sans-serif;
+  padding-left: 10px;
+}
 
 body, html, .App, #root, .auth-wrapper {
   width: 100%;

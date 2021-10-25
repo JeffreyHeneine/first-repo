@@ -10,6 +10,7 @@ import Partners from "./components/partners.component";
 import ForgotPass from './components/forgotPass';
 import ConfirmPass from './components/confirmpass.component';
 import WelcomePage from './components/welcomepage.component';
+import HomePage from './components/HomePage.components';
 
 function App() {
   return (<Router>
@@ -35,6 +36,7 @@ function App() {
         <div className="auth-inner">
           <Switch>
             <Route exact path='/' component={WelcomePage} />
+            <Route path="/home-page" component={HomePage}/>
             <Route path="/sign-in" component={Login} />
             <Route path="/sign-up" component={SignUp} />
             <Route path="/about-us" component={AboutUs}/>
