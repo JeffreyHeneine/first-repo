@@ -12,7 +12,7 @@ export default class AboutUs extends Component {
                     
                 </h8>
                 
-                <img className="center" src={image} alt="the world"/>
+                <img className="center" src={image}/>
             </form>
         )
     }
