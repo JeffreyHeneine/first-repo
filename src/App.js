@@ -10,6 +10,7 @@ import Partners from "./components/partners.component";
 import ForgotPass from './components/forgotPass';
 import ConfirmPass from './components/confirmpass.component';
 import WelcomePage from './components/welcomepage.component';
+// import Navbar from './components/navbar.component';
 
 function App() {
   return (<Router>
