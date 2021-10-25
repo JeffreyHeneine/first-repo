@@ -6,7 +6,7 @@ export default class HomePage extends Component {
         <form>
             <body1>
             <h9>
-              helloo
+              Home Page
             </h9>
             </body1>
             </form>

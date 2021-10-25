@@ -5,7 +5,7 @@ export default class WelcomePage extends Component {
         return (
             <form>
                 <h1 >
-                    Welcome to JR-commerce ! 
+                    Welcome to E-commerce-ESIB ! 
                 </h1>
                 
             </form>
